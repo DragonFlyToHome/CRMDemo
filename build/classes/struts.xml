@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 导入struts.dtd文件 
+	dtd:xml标签定义文件
+-->
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<!-- constant:常量
+		配置常量 -->
+	<!-- 开启开发者模式  -->
+	<constant name="struts.devMode" value="true"></constant>
+	<constant name="struts.action.extension" value="action,do,av,"></constant>
+	<!-- 修改文件上传最大长度 -->
+	<constant name="struts.multipart.maxSize" value="99999999999"></constant>
+	
+	
+<!-- 	<package name="up" namespace="/" extends="struts-default">
+		<action name="regist" class="userAction" 
+			method="regist"></action>
+	</package>
+	 -->
+	
+	
+	
+</struts>
